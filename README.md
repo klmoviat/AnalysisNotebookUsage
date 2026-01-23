@@ -21,6 +21,13 @@ For the notebook rq1 you need packages:
 
 For notebook rq2 you need packages:
 - pandas
+- sqlite3
+- json
+- numpy as np
+- matplotlib
+- sklearn
+- scipy
+- seaborn as sns
 
 ### Step 3: Run the Notebook
 The notebook should now be able to run!
