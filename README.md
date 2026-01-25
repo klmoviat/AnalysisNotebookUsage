@@ -1,9 +1,6 @@
 # AnalysisNotebookUsage
 This notebook contains the code for the Design a Study project of the course Empirical Methods in Software Engineering (2IMP40) from group 16. This is a course from the Eindhoven University of Technology.
 
-## Abstract from the Project Paper
-
-
 ## Reproducability
 To rerun the notebook, follow these steps. 
 
@@ -15,7 +12,7 @@ Only the following file needs to be downloaded from this link:
 
 Unzip the file and put it in the same directory as the notebook. 
 
-To reproduce the second method for RQ1 you need to download the train.csv file and test.csv file from this link: https://www.kaggle.com/competitions/titanic and put it in the same directory as the notebook.
+To reproduce the replay based method for RQ1 you need to download the train.csv file and test.csv file from this link: https://www.kaggle.com/competitions/titanic and put it in the same directory as the notebook.
 
 ### Step 2: Download all Packages needed
 For notebook rq1 you need to download the following packages:
@@ -27,6 +24,7 @@ For notebook rq1 you need to download the following packages:
 - nbclient
 - hashlib
 - pprint
+- sys
 
 For notebook rq2 you need packages:
 - pandas
@@ -43,3 +41,5 @@ For notebook rq2 you need packages:
 
 ### Step 3: Run the Notebook
 The notebook should now be able to run!
+
+Note: the replay based method in notebook rq1 calculates the result per participant/database. To look at results from other participants, change the file name in the first cell after the introduction of the replay based method.
